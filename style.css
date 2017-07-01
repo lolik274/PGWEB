@@ -2,5 +2,10 @@
 /* CSS Document */
 
 body {
-  background-image: url(../Desktop/PG Wallpapers/18339330_10209189579484690_941487945_o.png)
+	width: 85%;
+	height: 610px;
+	position: relative;
+    background-image: url(18339330_10209189579484690_941487945_o.png);
+	background-repeat: no-repeat;
+	background-position:top;
 }
