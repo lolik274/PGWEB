@@ -2,7 +2,6 @@
 /* CSS Document */
 
 body {
-	width: 85%;
 	height: 610px;
 	position: relative;
     background-image: url(18339330_10209189579484690_941487945_o.png);
@@ -29,18 +28,19 @@ body {
  
 .menu li {
     margin:0px;
+	padding:0px;
     list-style:none;
-    font-family:'Ek Mukta';
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
  
 .menu a {
     transition:all linear 0.15s;
-    color:#919191;
+    color:darkred;
 }
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
-    color:#be5b70;
+    color:red;
 }
  
 .menu .arrow {
